@@ -8,6 +8,10 @@
 #print("Chandan")
 
 # comments ----------------------------------------------------------------
+#Save the file 
+save(a, b, file = "new_file.RData")
+save.image(file = "Whole_session.RData")
+
 
 
 # -------------------------------------------------------------------------
@@ -48,3 +52,14 @@ pd = subset(pdf,Name == "Chandan" | age == 21)
 #Edit data frames manually
 myTable = data.frame()
 myTable = edit(myTable)
+
+
+#Arithmatic logical and mathmetical opeartion and matrix operation in R
+
+#How to create a matrix
+my_matrix = matrix(data = 6 : 4, nrow = 2, ncol = 2, byrow = FALSE, dimnames = NULL)
+print(my_matrix)
+
+dig_matrix = matrix(diagonals)
+
+new_matrix = matrix(data = NA, nrow = 2, ncol = 3)
