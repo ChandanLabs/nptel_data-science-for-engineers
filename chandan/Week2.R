@@ -17,6 +17,7 @@ for (i in count) {
     print(j)
   }
 }
-
+#the output of file is 4 only because you are going with that number
+# up to that number
 
 
