@@ -42,3 +42,5 @@ runif(100)
 a <- data.frame(x1=c("A","B","C"),x2=1:3)
 b <- data.frame(x1=c("A","B","D"),x2=c("yes","No","Yes"))
 
+#let have a new line of code 
+
